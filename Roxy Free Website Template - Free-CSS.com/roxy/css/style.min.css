@@ -170,8 +170,19 @@ section {
   font-weight: 600;
   border-radius: 30px;
   padding: 9px 25px;
+  
   text-transform: capitalize;
   transition: all 0.3s ease 0s; }
+
+  .btn_home{
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 15px 50px;
+    width: 20%;
+    margin-top: 350px;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s; }
 
 .btn-primary {
   display: inline-block;
@@ -503,7 +514,9 @@ section {
 
 .grid-item {
   margin-bottom: 20px;
-  border-radius: 5px;
+  border-radius: 50px;
+  width: 10%;
+  height: 10%;
   overflow: hidden; }
   .grid-item:hover .grid-info {
     top: 50%;
